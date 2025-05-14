@@ -1,0 +1,340 @@
+﻿header {
+    background-color: rgba(245, 245, 220, 0.5);
+    height:100px;
+}
+
+#logo{
+    float:right;
+}
+
+header li{
+    padding:20px;
+    list-style-type:none;
+    display:inline-block;
+    font-size:20px;
+    
+}
+
+header ul {
+    
+    padding-top:10px;
+    padding-bottom:10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#navbar{
+    cursor:auto;
+}
+
+#hsbc{
+    cursor:pointer;
+}
+
+#qnb{
+    cursor:pointer;
+}
+
+#cib{
+    cursor:pointer;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+
+#suggest {
+    padding-bottom:0;
+    width:300px;
+    height:100px;
+}
+p{
+    font-size:20px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+#signin{
+    font-size:15px;
+    margin-right:20px;
+    border:solid black 1px;
+    border-radius:50px;
+    border-width:2px;
+    padding:5px 20px;
+}
+
+ul a:hover{
+    text-decoration:underline;
+    
+}
+
+#message {
+    width: 300px;
+    position: relative;
+    left: 60px;
+    border-radius: 20px;
+    height: 30px;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+
+#send{
+    height:10px;
+    width:200px;
+    position:relative;
+    left:120px;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:10px;
+    border-color:beige;
+    border-radius:50px;
+    background-color:beige;
+    font-size:20px;
+    padding-bottom:30px;
+    cursor:pointer;
+}
+
+#send:hover{
+    transform:scale(1.1);
+}
+
+#contact {
+    display:flex;
+    border: solid black 1px;
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    width:1000px;
+    height:550px;
+    column-gap:normal;
+}
+
+#full {
+    width: 300px;
+    position: relative;
+    left: 60px;
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding-left:10px;
+}
+
+#email {
+    width: 300px;
+    position: relative;
+    left: 60px;
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#num {
+    width: 300px;
+    position: relative;
+    left: 60px;
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#first {
+    margin-top:40px;
+    width: 300px;
+    position: relative;
+    left: 60px;
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#last {
+    width: 300px;
+    position: relative;
+    left: 60px;
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#pass {
+    width: 300px;
+    position: relative;
+    left: 60px;
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.form{
+    width:500px;
+    position:relative;
+    left:40px;
+}
+
+.form h1{
+    margin-left:130px;
+}
+
+#img img{
+    width:500px;
+    height:550px;
+}
+
+#cont{
+    position:relative;
+    left:40px;
+}
+
+#cont h1{
+    margin-left: 100px;
+}
+footer {
+    color: black;
+    text-align: center;
+    position:relative;
+    top:50px;
+    font-size: 70px;
+    height: 200px;
+    background-color: beige;
+}
+
+#list1{
+    display:flex;
+    margin-bottom:0;
+    margin-left:400px;
+}
+
+
+
+.slider-container {
+    width: 1200px; /* Width of the visible image */
+    height: 400px; /* Height of the visible image */
+    overflow: hidden; /* Hide images outside the container */
+    position: relative;
+    margin:0;
+    padding-top:0;
+    
+}
+
+.slide {
+    display: flex; /* Align images horizontally */
+    transition: transform 0.5s ease-in-out; /* Smooth transition for sliding effect */
+    width: 100%; /* Width to fit only one image at a time */
+}
+
+    .slide img {
+        width: 900px; /* Width of each image */
+        height: 512px; /* Height of each image */
+        object-fit: cover; /* Ensure images cover the container without distortion */
+        flex-shrink: 0; /* Prevent images from shrinking */
+        border-radius:20px;
+    }
+
+.highlight{
+    background-color:yellow;
+}
+
+#web {
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    padding-top:30px;
+    font-size:20px;
+}
+.dropbtn {
+    background-color: rgba(245, 245, 220, 0.5);
+}
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+    .dropdown .dropbtn {
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: black;
+        padding: 14px 16px;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*#topnav{
+    border:solid midnightblue 1px;
+    background-color:midnightblue;
+}*/
+
+/*#topnav li{
+    display:inline-block;
+    padding:10px;
+    border:solid black 1px;
+}
+
+#topnav a{
+    color:white;
+}
+
+#topnav li a:hover{
+    background-color:black;
+    padding:10px;
+}*/
+

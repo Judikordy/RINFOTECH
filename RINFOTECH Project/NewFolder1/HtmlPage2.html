@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>RINFOTECH.com</title>
+    <script src="JavaScript.js"></script>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy0S6JPdKpTEo1N2XzUPPUvw-BSc8UpcqBow&amp;s" type="image/icon type">
+</head>
+<body>
+    <header>
+        <img src="images1.png" width="150" height="99" alt="Ran Infotech | LinkedIn" />
+        <div id="demo"></div>
+
+        <ul>
+            <li id="active">
+                <a href="#" id="home" onclick="home()" style="font-size:20px">الصفحة الرئيسية</a>
+
+            </li>
+            <li>
+                <a href="#" id="website" onclick="website()" style="font-size:20px">مواقع</a>
+            </li>
+            <li>
+                <a href="#" id="banks" onclick="banks()" style="font-size:20px">بنوك</a>
+            </li>
+            <li>
+                <a href="#" id="suggest" onclick="suggest()" style="font-size:20px">اقتراحات</a>
+
+            </li>
+            <li>
+                <a href="#" id="about" onclick="about()" style="font-size:20px">معلومات عنا</a>
+            </li>
+            <li>
+                <a href="#" onclick="contact()" style="font-size:20px">تواصل معنا</a>
+            </li>
+            <li>
+            <a href="HtmlPage1.html" onclick="translate()">
+                    <img src="pngwing.com (4).png" width="20" height="20" />
+                    <span>ENG</span>
+                </a>
+            </li>
+            <li id="login">
+                <a href="#" onclick="login()" style="font-size:20px">تسجيل الدخول</a>
+            </li>
+            <li>
+                <a href="#" onclick="signup()" style="font-size:15px;padding-left:0;">ليس لديك حساب؟</a>
+            </li>
+
+        </ul>
+
+        <!--<div id="topnav">
+            <ul>
+
+            </ul>
+        </div>-->
+
+        <script>
+            function login() {
+                document.getElementById('navbar').innerHTML = "<div style='background-color:#212121; height:150px;'><h2 style='color:white; text-align:center; padding-top:50px; margin:0'>تسجيل الدخول</h2><h1 style='color:#2290e0; text-align:center; margin:0'>تسجيل الدخول الى حسابك</h1></div><div id='contact'><div id='img'><img src='https://static-cse.canva.com/blob/1218986/Affordablemarketingideasforyoursmallbusiness_featuredimage.jpg' alt='Affordable marketing ideas for your small business'/></div><div id='form'><h1 style='text-align:center;'>استمارة-تسجيل-الدخول</h1><input style='margin-top:100px;'id='email' type='text' placeholder='البريد الالكتروني'/></br></br><input id='pass' type='password' placeholder='الرقم السري'/></br> <input id='send' type='button' value='ارسال' onclick='logged()'/></div></div>"
+            }
+            function signup() {
+                document.getElementById('navbar').innerHTML = "<div style='background-color:#212121; height:150px;'><h2 style='color:white; text-align:center; padding-top:50px; margin:0'>حساب جديد</h2><h1 style='color:#2290e0; text-align:center; margin:0'>انشاء حساب</h1></div><div id='contact'><div id='img'><img src='https://static-cse.canva.com/blob/1218986/Affordablemarketingideasforyoursmallbusiness_featuredimage.jpg' alt='Affordable marketing ideas for your small business'/></div><div id='form'><h1 style='text-align:center;'>استمارة-انشاء-حساب</h1><input id='first' type='text' placeholder='الاسم الاول'/><input id='last' type='text' placeholder='الاسم الاخير'/><input id='num' type='text' placeholder='رقم الهاتف'/><input id='email' type='text' placeholder='البريد الالكتروني'/></br></br><input id='pass' type='password' placeholder='الرقم السري'/></br> <input id='send' type='button' value='ارسال' onclick='signed()'/></div></div>"
+            }
+            function suggest() {
+                document.getElementById('demo').innerHTML = "<input id='suggest' type='text' placeholder='ماذا تريد من هذا الموقع؟'/> </br><label>الاسم:</label><input id='name' type='text' /><input type='button' value='ارسال' onclick='submit()' />"
+
+            }
+            function translate() {
+                document.getElementById('trans').outerHTML;
+            }
+            function website() {
+                document.getElementById('navbar').innerHTML = "<div style='border:solid black 1px; border-radius:15px; margin:100px'><h1 style='margin-top:40px; padding-left:40px;'>تسويق الاسهم</h1><img style='margin:30px 60px 30px 300px;' src = 'EFG Hermes.jpg'/><p style='margin:30px;'>تعتبر EFG Hermes شريكك الموثوق به في التعامل مع عالم الاستثمار المعقد في سوق الأوراق المالية. يقدم فريقنا من الخبراء الماليين ذوي الخبرة تحليلات متعمقة للسوق واستراتيجيات استثمار مخصصة ودعمًا على مدار الساعة لمساعدتك في تحقيق أهدافك المالية. مع التركيز على النمو الطويل الأجل وإدارة المخاطر، فإننا نمكن المستثمرين من جميع المستويات من اتخاذ قرارات مستنيرة وبناء محفظة استثمارية قوية.</p></div><div style='border:solid black 1px; border-radius:15px; margin:100px'><h1 style='margin-top:40px; padding-left:40px;'>التصميم الجرافيكي</h1><img style='margin:30px 60px 30px 300px;' src='Vectorizer Agency.jpg' width='500' height='500'/><p style='margin:30px;'>وكالة Vectorizer هي استوديو تصميم جرافيكي مخصص لصياغة قصص بصرية تلقى صدى. بفضل اهتمامنا الشديد بالجماليات وفهمنا العميق لهوية العلامة التجارية، نحول المفاهيم إلى تصميمات جذابة. يجمع فريقنا من الخبراء الإبداعيين بين البراعة الفنية والتفكير الاستراتيجي لتقديم حلول مبتكرة ترتقي بعلامتك التجارية وتجذب جمهورك.</p></div><div style='border:solid black 1px; border-radius:15px; margin:100px'><h1 style='margin-top:40px; padding-left:40px;'>الموارد البشرية</h1><img style='margin:30px 60px 30px 300px;' src='Top Masters.jpeg' width='500' height='500'/><p style='margin:30px;'>تعمل حلول الموارد البشرية لدينا على تمكين الشركات من تحسين قوتها العاملة وتحقيق الأهداف الاستراتيجية. تتخصص شركة Top Masters في صياغة استراتيجيات مخصصة لجذب وتطوير والاحتفاظ بالمواهب المتميزة. من خلال مواءمة ممارسات الموارد البشرية مع الأهداف التنظيمية، فإننا ننشئ فرقًا عالية الأداء ونعزز بيئة عمل إيجابية. تمكننا خبرتنا في التوظيف وإشراك الموظفين وإدارة المواهب وتكنولوجيا الموارد البشرية من تقديم نتائج قابلة للقياس ودفع نجاح الأعمال</p></div>"
+
+            }
+            function banks() {
+                document.getElementById('navbar').innerHTML = "<div style='border:solid black 1px; border-radius:15px; margin:100px'><a href='https://www.qnb.com.eg/sites/qnb/qnbegypt/page/en/en-home.html' /><h1 style='margin-top:40px; padding-left:40px;'>بنك قطر الوطني</h1><img style='margin:30px 60px 30px 300px;' src='https://cms.qnbalahli.com/iportalweb/iportal/images/Intellect_DesignForDigitalLogo_black.png' alt='QNB ALAHLI' width='700' height='300'/><p style='margin:30px;'>شركة مصرفية تجارية</p></div><a href='https://www.hsbc.com.eg/'/><div id='hsbc'style='border:solid black 1px; border-radius:15px; margin:100px'><h1 style='margin-top:40px; padding-left:40px;'>مؤسسة هونج كونج وشنغهاي المصرفية المحدودة</h1><img style='margin:30px 60px 30px 300px;' src='https://www.avadolearning.com/app/uploads/2022/04/HSBC-Symbol-png.webp' alt='HSBC Enhances Digital Capabilities with Squared Online' width='700' height='500'/><p style='margin:30px;'>شركة خدمات مالية</p></div><div style='border:solid black 1px; border-radius:15px; margin:100px'><a href='https://www.cibeg.com/en/personal/ways-to-bank/online-banking/?utm_campaign=always-on-digital-migration&utm_source=google-search&utm_medium=paid&gad_source=1&gclid=CjwKCAjw5Ky1BhAgEiwA5jGujoX7qA3FgODjsNIO7FO49DCBEfpeZyrdolS2tX5co77HZb_yiFrktxoCzBgQAvD_BwE' /><h1 style='margin-top:40px; padding-left:40px;'>البنك التجاري الدولي</h1><img style='margin:30px 60px 30px 300px;' src='https://vtlogo.com/wp-content/uploads/2021/08/commercial-international-bank-cib-vector-logo-small.png' alt='Commercial International Bank (CIB) Vector Logo | Free Download - (.SVG +  .PNG) format - VTLogo.com' width='500' height='500'/><p style='margin:30px;'>شركة مصرفية تجارية</p></div>"
+
+            }
+            function home() {
+                document.getElementById('navbar').innerHTML = "<h1 style='font-size: 70px;'>!مرحبا</h1><h2 style='font-size: 40px;'>مرحبا بكم في منشئ موقعنا، RINFOTECH..</h2><p style='font-size: 30px;'>اكتشف الأدوات الأساسية ونصائح الخبراء والمراجعات المتعمقة<br/> .لإنشاء موقع الويب المثالي الخاص بك</p><style>body {background-image: url('https://images.businessnewsdaily.com/app/uploads/2022/04/04072717/entrepreneur_Prostock-Studio_getty.jpg');background-repeat: no-repeat;background-size: 100%;}</style >"
+            }
+            function about() {
+                document.getElementById('navbar').innerHTML = "<div style='background-color:#212121; height:150px;'><h2 style='color:white; text-align:center; padding-top:50px; margin:0'>عن</h2><h1 style='color:#2290e0; text-align:center; margin:0'>RINFOTECH</h1></div><p style='font-size:25px; margin:100px; font-family:Arial'>RINFOTECH هي مركزك الرقمي الشامل للخدمات الأساسية عبر الإنترنت. من إدارة شؤونك المالية مع شركاء موثوق بهم مثل QNB وHSBC إلى تبسيط عمليات الموارد البشرية والوصول إلى بيانات سوق الأوراق المالية في الوقت الفعلي، نحن نوفر لك كل ما تحتاجه. تجمع منصتنا مجموعة مختارة من أفضل المواقع الإلكترونية، بما في ذلك أدوات التصميم الجرافيكي المتطورة، لتمكين الأفراد والشركات على حد سواء </br> </br> استمتع براحة الوصول إلى مجموعة واسعة من الخدمات الأساسية في مكان واحد. لقد أمضينا سنوات في مساعدة الشركات مثل شركتك على إنشاء حضور قوي على الإنترنت. الآن، نعمل على تمكينك من تولي زمام الأمور. توفر منصتنا الشاملة الأدوات والمعرفة والرؤى التي تحتاجها لبناء موقع الويب الخاص بك من البداية. من خلال الاختبار الدقيق والتحليل المتعمق، قمنا بتنظيم أفضل الموارد والنصائح العملية لإرشادك خلال كل خطوة من خطوات العملية</p >"
+            }
+            function submit() {
+                var x = document.getElementById('suggest').value
+                console.log(x)
+                var y = document.getElementById('name').value
+                console.log(y)
+                alert('تم إرسال الاستمارة بنجاح')
+            }
+            function send() {
+                var x = document.getElementById('full').value
+                console.log(x)
+                var y = document.getElementById('email').value
+                console.log(y)
+                var a = document.getElementById('num').value
+                console.log(a)
+                var b = document.getElementById('message').value
+                console.log(b)
+                alert('.شكرًا لك على الاتصال بنا! سوف نقوم بالرد على رسالتك في أقرب وقت ممكن')
+            }
+            function signed() {
+                var x = document.getElementById('first').value
+                console.log(x)
+                var y = document.getElementById('last').value
+                console.log(y)
+                var z = document.getElementById('num').value
+                console.log(z)
+                var a = document.getElementById('email').value
+                console.log(a)
+                var b = document.getElementById('pass').value
+                console.log(b)
+                alert('!تم انشاء حسابك بنجاح')
+            }
+            function logged() {
+                var x = document.getElementById('email').value
+                console.log(x)
+                var y = document.getElementById('pass').value
+                console.log(y)
+                document.getElementById('navbar').innerHTML;
+            }
+            function contact() {
+                document.getElementById('navbar').innerHTML = "<div style='background-color:#212121; height:150px;'><h2 style='color:white; text-align:center; padding-top:50px; margin:0'>التواصل</h2><h1 style='color:#2290e0; text-align:center; margin:0'>اترك رسالة</h1></div><div id='contact'><div id='img'><img src='https://static-cse.canva.com/blob/1218986/Affordablemarketingideasforyoursmallbusiness_featuredimage.jpg' alt='Affordable marketing ideas for your small business'/></div><div id='form'><h1 style='text-align:center;'>استمارة-التواصل-معنا</h1><input id='full' type='text' placeholder='الاسم بالكامل'/></br></br><input id='email' type='text' placeholder='البريد الالكتروني'/></br></br><input id='num'type='text' placeholder='رقم الهاتف'/></br></br><input id='message' type='text' placeholder='الرسالة'/> </br> <input id='send' type='button' value='ارسال' onclick='send()'/></div></div>"
+            }
+
+            function underline() {
+                style.TextDecoration = "underline";
+            }
+
+            document.getElementById('list1').addEventListener('click', underline)
+
+        </script>
+    </header>
+    <a id="trans" href="HtmlPage1.html"></a>
+
+    <div id="navbar">
+        <h1 style="font-size:70px;">!مرحبا</h1>
+        <h2 style="font-size:40px;">مرحبا بكم في منشئ موقعنا، RINFOTECH..</h2><p style="font-size:30px;">اكتشف الأدوات الأساسية ونصائح الخبراء والمراجعات المتعمقة<br /> .لإنشاء موقع الويب المثالي الخاص بك</p>
+        <style>
+            body {
+                background-image: url("https://images.businessnewsdaily.com/app/uploads/2022/04/04072717/entrepreneur_Prostock-Studio_getty.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+        </style>
+    </div>
+    <footer>
+        <div>
+            <ul id="list1">
+                <li id="active">
+                    <a href="#" id="home" onclick="home()" style="font-size:20px">الصفحة الرئيسية</a>
+
+                </li>
+                <li>
+                    <a href="#" id="website" onclick="website()" style="font-size:20px">مواقع</a>
+                </li>
+                <li>
+                    <a href="#" id="banks" onclick="banks()" style="font-size:20px">بنوك</a>
+                </li>
+                <li>
+                    <a href="#" id="suggest" onclick="suggest()" style="font-size:20px">اقتراحات</a>
+
+                </li>
+                <li>
+                    <a href="#" id="about" onclick="about()" style="font-size:20px">معلومات عنا</a>
+                </li>
+                <li>
+                    <a href="#" onclick="contact()" style="font-size:20px">تواصل معنا</a>
+                </li>
+
+            </ul>
+            <p>Copyright ©2024 RINFOTECH</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>

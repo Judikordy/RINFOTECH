@@ -1,0 +1,40 @@
+﻿
+li {
+    padding: 20px;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+ ul {
+    padding-top:10px;
+    padding-bottom:10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer {
+
+    position: relative;
+    bottom: 0;
+    color: black;
+}
+
+footer p{
+    font-size:20px;
+    margin:30px;
+    display:inline-block;
+
+}
+
+footer div{
+    padding-left:500px;
+    padding-right:100px;
+
+}
+
+#info{
+    display:flex;
+}
+

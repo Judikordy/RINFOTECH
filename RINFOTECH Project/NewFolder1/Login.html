@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Log In | RINFOTECH</title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy0S6JPdKpTEo1N2XzUPPUvw-BSc8UpcqBow&amp;s" type="image/icon type">
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images1.png" width="150" height="99" alt="Ran Infotech | LinkedIn" />
+
+
+    </header>
+    <div id="demo"></div>
+
+    <div style='background-color:#212121; height:150px;'>
+        <h2 style='color:white; text-align:center; padding-top:50px; margin:0'>
+            login
+        </h2>
+        <h1 style='color:#2290e0; text-align:center; margin:0'>
+            Login to your account
+        </h1>
+    </div>
+    <div id='contact'>
+        <div id='img'>
+            <img src='https://static-cse.canva.com/blob/1218986/Affordablemarketingideasforyoursmallbusiness_featuredimage.jpg' alt='Affordable marketing ideas for your small business' />
+        </div>
+        <div class='form'>
+            <h1>
+                Login-Form
+            </h1>
+            <input style='margin-top:100px;' id='email' type='text' placeholder='Email Address' />
+            <br /><br />
+            <input id='pass' type='password' placeholder='Password' />
+            <br />
+            <input id='send' type='button' value='Submit' onclick="logged()" />
+        </div>
+    </div>
+    <a id="home" href="Home.html"></a>
+
+    <footer>
+        <div class="navbar" style="padding-left:500px">
+            <a href="Home.html" id="home" onclick="home()" style="font-size:20px">Home</a>
+
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Websites
+                    <i class="down"></i>
+                </button>
+                <div class="dropdown-content">
+
+                    <a href="Websites.html" onclick="website()" style="font-size:20px">EFG Hermes</a>
+                    <a href="Websites.html" onclick="website()" style="font-size:20px">Beltone</a>
+                    <a href="Websites.html" onclick="website()" style="font-size:20px">Vectorizer</a>
+                    <a href="Websites.html" onclick="website()" style="font-size:20px">Graphicsawy</a>
+                    <a href="Websites.html" onclick="website()" style="font-size:20px">Pixelate</a>
+                    <a href="Websites.html" onclick="website()" style="font-size:20px">Top Masters</a>
+                    <a href="Websites.html" onclick="website()" style="font-size:20px">Top Fighters</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Banks
+                    <i class="down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="Banks.html" onclick="banks()" style="font-size:20px">QNB</a>
+                    <a href="Banks.html" onclick="banks()" style="font-size:20px">HSBC</a>
+                    <a href="Banks.html" onclick="banks()" style="font-size:20px">CIB</a>
+
+                </div>
+            </div>
+
+            <a href="About.html" onclick="about()" style="font-size:20px">About Us</a>
+            <a href="Contact.html" onclick="contact()" style="font-size:20px">Contact Us</a>
+        </div>
+        <p>Copyright ©2024 RINFOTECH</p>
+
+    </footer>
+</body>
+</html>
